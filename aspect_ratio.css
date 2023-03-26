@@ -1,0 +1,20 @@
+body{
+  background-color: #1953aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent{
+  height: 150px;
+  width: 100px;
+  resize: horizontal;
+  overflow: auto;
+  border-style: solid;
+  padding: 5px;
+}
+
+.child{
+  background-color: #d6a800;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
